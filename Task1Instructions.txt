@@ -1,0 +1,16 @@
+Application to create a .txt file with N number of lines each with a random number.
+
+
+Task1 steps:
+
+  1. Open command prompt
+  2. Navigate to folder containing Task1.java
+  3. Enter: 'javac Task1.java' into command prompt
+  4. A file named Task1.class should have been created in the same folder you are currently in
+  5. Enter: 'java Task1 @param1 @param2' into command prompt
+    @param1: Must be an integer that is passed as a parameter to determine how many lines of random numbers are generated
+    @param2: Filepath and name of file to be created or overwritten by the application
+  6. Example: java 100 D:\Documents\testingFile.txt
+
+  Parameter Warnings: application will except only two parameters. The first being an integer 'N',
+  the second being a proper filepath and file to be created.

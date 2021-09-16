@@ -1,0 +1,16 @@
+Task2: Application to read a file and print in asc or desc order the numbers on each line of file.
+
+Task2 steps:
+
+  1. Open command prompt
+  2. Navigate to folder containing Task2.java
+  3. Enter: 'javac Task2.java' into command prompt
+  4. A file should have been created called Task2.class
+  5. Enter: 'java Task2 @param1 @param2' into command prompt
+    @param1: Filepath of .txt file containing the numbers to be sorted and printed
+    @param2: This is an optional parameter that can either be asc for ascending order or desc for descending order
+  6. Example: 'java Task2 D:\Documents\testingFile.txt asc'
+
+Parameter Warnings: Application will only accept either 1 or 2 parameters.
+First parameter must be a filepath of an existing file.
+Second parameter is optional and can be either 'asc', 'desc', or empty.
