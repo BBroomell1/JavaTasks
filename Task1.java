@@ -9,13 +9,13 @@ public class Task1 {
 
 	public static void main(String[] args) {
 
-		// General Variables
-		int num = 0;
-		Random rand = new Random();
+	    // General Variables
+	    int num = 0;
+	    Random rand = new Random();
 	    int i = 0;
 
 	    // Check for proper amount of args passed to main.
-		if(args.length != 2)
+	    if(args.length != 2)
 	    {
 	      System.out.println("Incorrect number of args passed to main.");
 	      System.out.println("Args 1 should be a number 'N'");
@@ -27,7 +27,7 @@ public class Task1 {
 	      System.exit(0);
 	    }
 
-		// Gets the number from the input args[0] and makes sure it can be cast to an Int.
+	    // Gets the number from the input args[0] and makes sure it can be cast to an Int.
 	    try {
 	    	num = Integer.parseInt(args[0]);
 	    }catch(Exception ex)
