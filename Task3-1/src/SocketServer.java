@@ -12,12 +12,14 @@ public class SocketServer implements Runnable{
 	protected Thread runningThread = null;
 	protected ExecutorService threadPool = Executors.newFixedThreadPool(10);
 	
+	// Constructor for SocketServer
 	public SocketServer(int portNum, String rootPath)
 	{
 		this.portNum = portNum;
 		this.rootPath = rootPath;
 	}
 	
+	// Runs SocketServer using ThreadPool
 	public void run() {
 		
 		synchronized(this)

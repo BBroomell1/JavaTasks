@@ -37,9 +37,12 @@ public class Task3Server {
 	    }
 		
 	    
-	    	SocketServer socketServer = new SocketServer(portNum, rootPath);
-	    	new Thread(socketServer).start();
+	    // SocketServer obj and start main thread.
+	    SocketServer socketServer = new SocketServer(portNum, rootPath);
+	    new Thread(socketServer).start();
 	    	
+	    	//Use this for a set amount of time the server is open.
+	    	/*
 	    	try
 	    	{
 	    		Thread.sleep(20 * 5000);
@@ -49,7 +52,7 @@ public class Task3Server {
 	    	}
 	    	
 	    	System.out.println("Stopping server");
-	    	socketServer.stop();
+	    	socketServer.stop();*/
 
 	}
 
